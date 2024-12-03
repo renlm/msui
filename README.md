@@ -77,7 +77,7 @@ $ yarn install
 }
 ```
 
-## react
+## React
 [https://react.docschina.org/learn/start-a-new-react-project](https://react.docschina.org/learn/start-a-new-react-project)  
 
 ```
