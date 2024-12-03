@@ -34,7 +34,7 @@ $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 安装node-gyp
 https://chocolatey.org
 https://github.renlm.cn/nodejs/node-gyp
-$ choco install python visualstudio2022-workload-vctools -y
+$ choco install python mingw visualstudio2022-workload-vctools -y
 
 启用yarn 
 https://yarnpkg.com/getting-started/install
