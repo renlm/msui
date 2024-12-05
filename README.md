@@ -77,7 +77,7 @@ https://www.yarnpkg.cn/getting-started/install
 $ corepack enable
 查看配置项
 $ yarn config
-版本间参数名可能不同
+注意版本间参数变化
 $ yarn config set npmRegistryServer https://registry.npmmirror.com
 $ yarn set version stable
 $ yarn install
