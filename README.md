@@ -22,6 +22,41 @@ $ git config --global user.email "renlm@21cn.com"
         重启资源管理器
 ```
 
+## MSYS2
+[https://www.msys2.org](https://www.msys2.org)  
+
+```
+下载并安装
+    开始菜单
+        MSYS2 64bit
+            MSYS2 MinGW Clang x64
+            MSYS2 MinGW UCRT x64
+            MSYS2 MinGW x64
+            MSYS2 MinGW x86
+            MSYS2 MSYS 
+安装工具包
+使用MSYS2命令行工具
+    $ pacman -Syu
+    $ pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-cmake mingw-w64-x86_64-make
+    $ pacman -S mingw-w64-x86_64-toolchain
+    $ pacman -S mingw-w64-x86_64-clang
+    $ pacman -S mingw-w64-x86_64-yasm mingw-w64-x86_64-nasm
+    $ pacman -S mingw-w64-x86_64-freetype
+添加环境变量  
+    win+R  
+        control system
+    环境变量 
+        MSYS_DIR=C:\msys64
+        MINGW64_DIR=C:\msys64\mingw64
+        Path添加: %MSYS_DIR%\usr\bin;%MINGW64_DIR%\bin
+查看安装版本
+    $ gcc -v
+    $ g++ -v
+    $ cmake -version
+查看CMake生成器
+    $ cmake -G
+```
+
 ## Node.js
 [https://nodejs.org](https://nodejs.org)  
 [https://nodejs.cn](https://nodejs.cn)  
@@ -32,15 +67,14 @@ $ Get-ExecutionPolicy -List
 $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 安装node-gyp
-https://chocolatey.org
 https://github.renlm.cn/nodejs/node-gyp
-$ choco install python mingw visualstudio2022-workload-vctools -y
+$ npm config set registry https://registry.npmmirror.com
+$ npm install -g node-gyp
 
 启用yarn 
 https://yarnpkg.com/getting-started/install
 https://www.yarnpkg.cn/getting-started/install
 $ corepack enable
-$ npm config set registry https://registry.npmmirror.com
 $ yarn config set registry https://registry.npmmirror.com
 $ yarn set version stable
 $ yarn install
@@ -81,6 +115,7 @@ $ yarn install
 [https://react.docschina.org/learn/start-a-new-react-project](https://react.docschina.org/learn/start-a-new-react-project)  
 
 ```
+$ npx create-next-app@latest
 $ cd msui
 $ git init 
 $ git add . 
