@@ -75,7 +75,10 @@ $ npm install -g node-gyp
 https://yarnpkg.com/getting-started/install
 https://www.yarnpkg.cn/getting-started/install
 $ corepack enable
-$ yarn config set registry https://registry.npmmirror.com
+查看配置项
+$ yarn config
+不同版本镜像设置参数可能不同
+$ yarn config set npmRegistryServer https://registry.npmmirror.com
 $ yarn set version stable
 $ yarn install
 ```
