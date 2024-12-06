@@ -57,6 +57,20 @@ $ git config --global user.email "renlm@21cn.com"
     $ cmake -G
 ```
 
+## GO
+[https://go.dev/dl](https://go.dev/dl)  
+[https://dl.google.com/go/go1.23.3.windows-amd64.zip](https://dl.google.com/go/go1.23.3.windows-amd64.zip)  
+	
+	配置环境变量
+	GOROOT：Go 语言安装根目录的路径，也就是 GO 语言的安装路径。
+	GOPATH：若干工作区目录的路径，是我们自己定义的工作空间。
+	GOBIN：Go 程序生成的可执行文件（executable file）的路径。
+	$ go version
+	$ go env
+	$ go env -w GO111MODULE=on
+	$ go env -w GOPROXY=https://goproxy.cn,direct
+	$ go env -w GOSUMDB=goproxy.cn/sumdb/sum.golang.org
+
 ## Node.js
 [https://nodejs.org](https://nodejs.org)  
 [https://nodejs.cn](https://nodejs.cn)  
