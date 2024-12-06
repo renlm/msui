@@ -59,7 +59,7 @@ $ git config --global user.email "renlm@21cn.com"
 
 ## GO
 [https://go.dev/dl](https://go.dev/dl)  
-[https://dl.google.com/go/go1.23.3.windows-amd64.zip](https://dl.google.com/go/go1.23.3.windows-amd64.zip)  
+[https://dl.google.com/go/go1.23.4.windows-amd64.zip](https://dl.google.com/go/go1.23.4.windows-amd64.zip)  
 	
 	配置环境变量
 	GOROOT：Go 语言安装根目录的路径，也就是 GO 语言的安装路径。
