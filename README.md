@@ -76,6 +76,7 @@ $ git config --global user.email "renlm@21cn.com"
 [https://nodejs.cn](https://nodejs.cn)  
 
 ```
+C:\nodejs
 管理员身份启动PowerShell
 $ Get-ExecutionPolicy -List
 $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
