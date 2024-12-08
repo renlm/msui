@@ -83,7 +83,7 @@ $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 安装node-gyp
 https://github.renlm.cn/nodejs/node-gyp
-$ npm config set registry https://registry.npmmirror.com
+$ npm config set registry https://npmmirror.renlm.cn
 $ npm install -g node-gyp
 
 启用yarn 
@@ -93,7 +93,7 @@ $ corepack enable
 查看配置项
 $ yarn config
 注意版本间参数变化
-$ yarn config set npmRegistryServer https://registry.npmmirror.com
+$ yarn config set npmRegistryServer https://npmmirror.renlm.cn
 $ yarn set version stable
 $ yarn install
 ```
@@ -103,7 +103,6 @@ $ yarn install
 
 ```
 可选插件
-	GitLens
     Git Graph
     Code Runner
     Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
