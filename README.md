@@ -94,8 +94,7 @@ $ corepack enable
 $ yarn config
 注意版本间参数变化
 $ yarn config set npmRegistryServer https://registry.npmmirror.com
-$ yarn set version stable
-$ yarn install
+$ yarn -v
 ```
 
 ## Visual Studio Code
@@ -136,6 +135,7 @@ $ npx create-next-app@latest
 $ cd msui
 $ git init 
 $ git add . 
+$ git submodule add -b v11.1.x https://gitee.com/renlm/grafana.git lib/grafana
 $ git commit -m "first commit"
 $ git remote add origin https://gitee.com/renlm/msui.git
 $ git push -u origin "master"

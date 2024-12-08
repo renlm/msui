@@ -1,0 +1,4 @@
+[submodule "packages/grafana"]
+	path = packages/grafana
+	url = https://gitee.com/renlm/grafana.git
+	branch = v11.1.x

@@ -12,13 +12,16 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "workspaces": {
+    "packages": [
+      "packages/grafana/packages/*"
+    ]
+  },
   "dependencies": {
     "next": "15.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@grafana/ui": "https://github-io.renlm.cn/download/grafana/v11.1.11/packages/@grafana-ui-11.1.11.tgz",
-    "@grafana/data": "https://github-io.renlm.cn/download/grafana/v11.1.11/packages/@grafana-data-11.1.11.tgz",
-    "@grafana/schema": "https://github-io.renlm.cn/download/grafana/v11.1.11/packages/@grafana-schema-11.1.11.tgz"
+    "@grafana/ui": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "20.11.30",
