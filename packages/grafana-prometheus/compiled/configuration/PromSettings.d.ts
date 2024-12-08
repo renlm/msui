@@ -1,0 +1,11 @@
+import React, { SyntheticEvent } from 'react';
+import { DataSourcePluginOptionsEditorProps, SelectableValue } from '@grafana/data';
+import { PromOptions } from '../types';
+type Props = Pick<DataSourcePluginOptionsEditorProps<PromOptions>, 'options' | 'onOptionsChange'>;
+export declare const DURATION_REGEX: RegExp;
+export declare const MULTIPLE_DURATION_REGEX: RegExp;
+export declare const NON_NEGATIVE_INTEGER_REGEX: RegExp;
+export declare const countError = "Value is not valid, you can use non-negative integers, including scientific notation";
+export declare const PromSettings: (props: Props) => React.JSX.Element;
+export declare const getValueFromEventItem: (eventItem: SyntheticEvent<HTMLInputElement> | SelectableValue<string>) => any;
+export {};

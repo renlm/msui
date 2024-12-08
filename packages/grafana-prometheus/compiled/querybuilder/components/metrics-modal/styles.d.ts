@@ -1,0 +1,22 @@
+import { GrafanaTheme2 } from '@grafana/data';
+export declare const getStyles: (theme: GrafanaTheme2, disableTextWrap: boolean) => {
+    modal: string;
+    inputWrapper: string;
+    inputItemFirst: string;
+    inputItem: string;
+    selectWrapper: string;
+    resultsAmount: string;
+    resultsData: string;
+    resultsDataCount: string;
+    resultsDataFiltered: string;
+    resultsDataFilteredText: string;
+    results: string;
+    resultsFooter: string;
+    currentlySelected: string;
+    loadingSpinner: string;
+    visible: string;
+    settingsBtn: string;
+    noBorder: string;
+    resultsPerPageLabel: string;
+    resultsPerPageWrapper: string;
+};

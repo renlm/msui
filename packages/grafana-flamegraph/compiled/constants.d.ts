@@ -1,0 +1,12 @@
+export declare const PIXELS_PER_LEVEL: number;
+export declare const MUTE_THRESHOLD: number;
+export declare const HIDE_THRESHOLD: number;
+export declare const LABEL_THRESHOLD: number;
+export declare const BAR_BORDER_WIDTH: number;
+export declare const BAR_TEXT_PADDING_LEFT: number;
+export declare const GROUP_STRIP_WIDTH: number;
+export declare const GROUP_STRIP_PADDING: number;
+export declare const GROUP_STRIP_MARGIN_LEFT: number;
+export declare const GROUP_TEXT_OFFSET: number;
+export declare const MIN_WIDTH_TO_SHOW_BOTH_TOPTABLE_AND_FLAMEGRAPH = 800;
+export declare const TOP_TABLE_COLUMN_WIDTH = 120;

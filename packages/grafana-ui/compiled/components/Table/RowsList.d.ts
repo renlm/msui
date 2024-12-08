@@ -1,0 +1,32 @@
+import React from 'react';
+import { Row, TableState, HeaderGroup } from 'react-table';
+import { VariableSizeList } from 'react-window';
+import { DataFrame, Field, TimeRange } from '@grafana/data';
+import { TableCellHeight } from '@grafana/schema';
+import { TableStyles } from './styles';
+import { TableFilterActionCallback } from './types';
+interface RowsListProps {
+    data: DataFrame;
+    rows: Row[];
+    enableSharedCrosshair: boolean;
+    headerHeight: number;
+    rowHeight: number;
+    itemCount: number;
+    pageIndex: number;
+    listHeight: number;
+    width: number;
+    cellHeight?: TableCellHeight;
+    listRef: React.RefObject<VariableSizeList>;
+    tableState: TableState;
+    tableStyles: TableStyles;
+    nestedDataField?: Field;
+    prepareRow: (row: Row) => void;
+    onCellFilterAdded?: TableFilterActionCallback;
+    timeRange?: TimeRange;
+    footerPaginationEnabled: boolean;
+    initialRowIndex?: number;
+    headerGroups: HeaderGroup[];
+    longestField?: Field;
+}
+export declare const RowsList: (props: RowsListProps) => React.JSX.Element;
+export {};

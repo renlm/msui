@@ -1,0 +1,24 @@
+import React from 'react';
+import { CollapsedMap } from './FlameGraph/dataTransform';
+import { ColorScheme, ColorSchemeDiff, SelectedView, TextAlign } from './types';
+type Props = {
+    search: string;
+    setSearch: (search: string) => void;
+    selectedView: SelectedView;
+    setSelectedView: (view: SelectedView) => void;
+    containerWidth: number;
+    onReset: () => void;
+    textAlign: TextAlign;
+    onTextAlignChange: (align: TextAlign) => void;
+    showResetButton: boolean;
+    colorScheme: ColorScheme | ColorSchemeDiff;
+    onColorSchemeChange: (colorScheme: ColorScheme | ColorSchemeDiff) => void;
+    stickyHeader: boolean;
+    vertical?: boolean;
+    isDiffMode: boolean;
+    setCollapsedMap: (collapsedMap: CollapsedMap) => void;
+    collapsedMap: CollapsedMap;
+    extraHeaderElements?: React.ReactNode;
+};
+declare const FlameGraphHeader: ({ search, setSearch, selectedView, setSelectedView, containerWidth, onReset, textAlign, onTextAlignChange, showResetButton, colorScheme, onColorSchemeChange, stickyHeader, extraHeaderElements, vertical, isDiffMode, setCollapsedMap, collapsedMap, }: Props) => React.JSX.Element;
+export default FlameGraphHeader;
