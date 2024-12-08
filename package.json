@@ -16,7 +16,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "next": "15.0.4",
-    "@grafana/ui": "11.0.10"
+    "@grafana/data": "https://gitee.com/renlm/grafana.git#v11.0.x",
+    "@grafana/ui": "https://gitee.com/renlm/grafana.git#v11.0.x"
   },
   "devDependencies": {
     "typescript": "5.3.3",
