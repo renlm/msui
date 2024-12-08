@@ -129,9 +129,10 @@ $ yarn -v
 
 ## React
 [https://react.docschina.org/learn/start-a-new-react-project](https://react.docschina.org/learn/start-a-new-react-project)  
+[https://www.npmjs.com/package/create-next-app](https://www.npmjs.com/package/create-next-app)  
 
 ```
-$ npx create-next-app@latest
+$ npx create-next-app@14.2.20
 $ cd msui
 $ git init 
 $ git add . 
